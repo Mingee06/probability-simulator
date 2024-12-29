@@ -36,3 +36,124 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 30px;
+  color: #2d3e50;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2d3e50;
+}
+
+input[type="number"], input[type="text"], input[type="submit"] {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+input[type="number"]:focus, input[type="text"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+ 
+}
+
+p {
+  font-size: 1.1rem; 
+  line-height: 1.6;  
+  color: #444;       
+  margin-bottom: 20px; 
+  background-color: #fafafa; 
+  padding: 10px;         
+  border-left: 4px solid #4CAF50; 
+  border-radius: 5px;    
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+strong {
+  color: #4CAF50; 
+  font-weight: bold;
+}
+
+p:hover {
+  background-color: #e6f7e6; 
+  cursor: pointer;  
+  transform: scale(1.02); 
+  transition: all 0.3s ease; 
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #ccc;
+}
+
+.react-tabs__tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.react-tabs__tab--selected {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.react-tabs__tab:hover {
+  background-color: #f0f0f0;
+}
+
+.react-tabs__tab-panel {
+  margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .react-tabs__tab-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .react-tabs__tab {
+    width: 100%;
+    text-align: center;
+  }
+}
